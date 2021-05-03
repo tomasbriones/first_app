@@ -10,6 +10,12 @@
   </head>
 
   <body>
+
+    <ul>
+      <a href="<%= pages_one_path %>">One</a>
+      <%= link_to "Two", pages_two_url %> 
+      <a href="<%= pages_three_path %>">Three</a>
+    </ul>
     <%= yield %>
   </body>
 </html>
